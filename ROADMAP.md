@@ -1,6 +1,6 @@
 # DeLFS Operating System Roadmap
 
-Welcome to the **DeLFS (Delfs Operating System)** development roadmap. DeLFS is a custom, UNIX-like operating system designed for the **x86_64** architecture. It features a custom glibc-compatible C library (`libc`), a standalone toolchain, and a modular kernel architecture.
+Welcome to the **DeLFS (Linux From Scratch, but without the Linux Kernel and glibc)** development roadmap. DeLFS is a custom UNIX-like operating system built from scratch, replacing the Linux kernel with a custom kernel subsystem and glibc with a minimal C library clone on the **x86_64** architecture.
 
 This document outlines our current architecture, what has been implemented so far, and the development milestones planned for future releases.
 
